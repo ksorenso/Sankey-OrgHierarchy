@@ -1,0 +1,169 @@
+{
+  "links" : [
+    {
+    "source" : "ftblOrgHierarchy_NEW(csMetrics)",
+    "target" : "Script1",
+    "value" : 1.0
+    },
+    {
+    "source" : "PF_MAP_IOT_20150723(Pf)",
+    "target" : "sp_t_OrgPf_BE_iot(Pf)",
+    "value" : 1.0
+    },
+    {
+    "source" : "Script1",
+    "target" : "tblOrgHierarchies.1",
+    "value" : 1.0
+    },
+    {
+    "source" : "sp_t_Org(Pf)",
+    "target" : "spFinDataAutoComplete_part2b(Gbsbi)",
+    "value" : 1.0
+    },
+    {
+    "source" : "sp_t_OrgPf(Pf)",
+    "target" : "sp_t_Org(Pf)",
+    "value" : 1.0
+    },
+    {
+    "source" : "sp_t_OrgPf_BE_cspg(Pf)",
+    "target" : "sp_t_OrgPf(Pf)",
+    "value" : 1.0
+    },
+    {
+    "source" : "sp_t_OrgPf_BE_iot(Pf)",
+    "target" : "sp_t_OrgPf(Pf)",
+    "value" : 1.0
+    },
+    {
+    "source" : "sp_t_OrgPf_BE_security(Pf)",
+    "target" : "sp_t_OrgPf(Pf)",
+    "value" : 1.0
+    },
+    {
+    "source" : "sp_t_OrgPf_product_families(Pf)",
+    "target" : "sp_t_OrgPf(Pf)",
+    "value" : 1.0
+    },
+    {
+    "source" : "sp_t_OrgPf_rejigger(Pf)",
+    "target" : "sp_t_Org(Pf)",
+    "value" : 1.0
+    },
+    {
+    "source" : "sp_t_OrgPf_SP_MBS(Pf)",
+    "target" : "sp_t_OrgPf(Pf)",
+    "value" : 1.0
+    },
+    {
+    "source" : "sp_t_OrgPf_tblBkgsOrg(Pf)",
+    "target" : "sp_t_OrgPf(Pf)",
+    "value" : 1.0
+    },
+    {
+    "source" : "sp_t_OrgPf_tblOrg(Pf)",
+    "target" : "sp_t_OrgPf(Pf)",
+    "value" : 1.0
+    },
+    {
+    "source" : "spFinDataAutoComplete_part2b(Gbsbi)",
+    "target" : "tblOrgHierarchies.2",
+    "value" : 1.0
+    },
+    {
+    "source" : "tblOrg(csMetrics)",
+    "target" : "Script1",
+    "value" : 1.0
+    },
+    {
+    "source" : "tblOrgHierarchies.1",
+    "target" : "sp_t_OrgPf_rejigger(Pf)",
+    "value" : 1.0
+    },
+    {
+    "source" : "tblOrgName(csMetrics)",
+    "target" : "Script1",
+    "value" : 1.0
+    },
+    {
+    "source" : "tblOrgParent(csMetrics)",
+    "target" : "Script1",
+    "value" : 1.0
+    },
+    {
+    "source" : "tblOrgRoot(csMetrics)",
+    "target" : "Script1",
+    "value" : 1.0
+    },
+    {
+    "source" : "tPfActive#",
+    "target" : "sp_t_OrgPf_rejigger(Pf)",
+    "value" : 1.0
+    }
+  ]
+,  "nodes" : [
+    {
+    "name" : "ftblOrgHierarchy_NEW(csMetrics)"
+    },
+    {
+    "name" : "PF_MAP_IOT_20150723(Pf)"
+    },
+    {
+    "name" : "Script1"
+    },
+    {
+    "name" : "sp_t_Org(Pf)"
+    },
+    {
+    "name" : "sp_t_OrgPf(Pf)"
+    },
+    {
+    "name" : "sp_t_OrgPf_BE_cspg(Pf)"
+    },
+    {
+    "name" : "sp_t_OrgPf_BE_iot(Pf)"
+    },
+    {
+    "name" : "sp_t_OrgPf_BE_security(Pf)"
+    },
+    {
+    "name" : "sp_t_OrgPf_product_families(Pf)"
+    },
+    {
+    "name" : "sp_t_OrgPf_rejigger(Pf)"
+    },
+    {
+    "name" : "sp_t_OrgPf_SP_MBS(Pf)"
+    },
+    {
+    "name" : "sp_t_OrgPf_tblBkgsOrg(Pf)"
+    },
+    {
+    "name" : "sp_t_OrgPf_tblOrg(Pf)"
+    },
+    {
+    "name" : "spFinDataAutoComplete_part2b(Gbsbi)"
+    },
+    {
+    "name" : "tblOrg(csMetrics)"
+    },
+    {
+    "name" : "tblOrgHierarchies.1"
+    },
+    {
+    "name" : "tblOrgHierarchies.2"
+    },
+    {
+    "name" : "tblOrgName(csMetrics)"
+    },
+    {
+    "name" : "tblOrgParent(csMetrics)"
+    },
+    {
+    "name" : "tblOrgRoot(csMetrics)"
+    },
+    {
+    "name" : "tPfActive#"
+    }
+  ]
+}
